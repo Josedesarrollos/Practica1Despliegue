@@ -1,0 +1,65 @@
+[
+  {
+    "id": 2,
+    "nombre": "Match Madness",
+    "descripcion": "Estruja tu cerebro con este juego de velocidad y percepción! Los jugadores compiten por ser el primero en reproducir el patrón de la carta con sus 5 bloques. Parece sencillo, ¿no? ",
+    "edadMinima": 3,
+    "numeroJugadores": 4,
+    "tipo": "juego de cartas",
+    "precioEuros": "21.80"
+  },
+  {
+    "id": 3,
+    "nombre": "Pandemic",
+    "descripcion": "Cuatro enfermedades han brotado en el mundo y depende de un equipo de especialistas en varios campos encontrar la cura antes de que sea demasiado tarde para la humanidad.",
+    "edadMinima": 3,
+    "numeroJugadores": 4,
+    "tipo": "juego de cartas",
+    "precioEuros": "30.35"
+  },
+  {
+    "id": 4,
+    "nombre": "Red death redemption",
+    "descripcion": "Red Dead Redemption, que podría traducirse al español como 'redención de la muerte roja', es un western de acción y de aventura. La historia transcurre en el Lejano Oeste en el año 1911.",
+    "edadMinima": 18,
+    "numeroJugadores": 1,
+    "tipo": "videojuego",
+    "precioEuros": "60"
+  },
+  {
+    "id": 5,
+    "nombre": "El horror congelado",
+    "descripcion": "El Horror Congelado ha salido de la tumba helada donde ha descansado por siglos, recuperando su fuerza y esperando la llamada de Zargon.Por fin, esa llamada ha llegado y la furiosa bestia ha regresado a su antigua sede de poder en las profundidades de la Montaña de Hielo. En este mismo momento, está reuniendo a sus secuaces y organizando sus planes para cubrir las Tierras del Norte y el Reino con un manto mortal de hielo.",
+    "edadMinima": 14,
+    "numeroJugadores": 5,
+    "tipo": "Juego de mesa",
+    "precioEuros": "28"
+  },
+  {
+    "id": 6,
+    "nombre": "Carcassonne 20 Aniversario",
+    "descripcion": "La esperada edición 20 aniversario de Carcassonne llega por fin a las tiendas: nuevas losetas, ilustraciones inéditas, meeples personalizables en una edición de lujo...con la misma jugabilidad de siempre íMiles de horas de diversión en la nueva caja del clásico juego de colocación de losetas! Carcassonne, uno de los juegos más influyentes y jugados del mundo cumple 20 años, y en Devir queremos celebrarlo por todo lo alto. Carcassonne fue diseñado en el año 2000 por uno de los mejores autores del panorama lúdico: Klaus-Jürgen Wrede. Después de 20 años, miles de copias vendidas por todo el mundo, expansiones y versiones del juego íLlega la caja definitiva para la celebración de esta efeméride en el mundo de los juegos de mesa!",
+    "edadMinima": 7,
+    "numeroJugadores": 5,
+    "tipo": "Juego de mesa",
+    "precioEuros": "37.95"
+  },
+  {
+    "id": 7,
+    "nombre": "Hasta donde puedas",
+    "descripcion": "es un juego de cartas lleno de humor negro, y, sobre todo, políticamente incorrecto. Almas cándidas y no preparadas para reírse hasta quedarse sin aliento",
+    "edadMinima": 18,
+    "numeroJugadores": 4,
+    "tipo": "juego de mesa",
+    "precioEuros": "31,21 €"
+  },
+  {
+    "id": 1,
+    "nombre": "WIZ-WAR",
+    "descripcion": "Wiz-War nos traslada a una mazmorra laberíntica donde magos lucharán por hacerse con el titulo de Decano de la orden, matando a sus adversarios o robándoles el control de sus tesoros, por medio de hechizos, convirtiéndose en criaturas o sembrando un caos mágico.",
+    "edadMinima": 12,
+    "numeroJugadores": 4,
+    "tipo": "juego de mesa",
+    "precioEuros": "49.95 €"
+  }
+]

@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "3cd17e00-766b-4bc1-bd83-090aa5931abe",
+		"name": "Juegosapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18235283"
+	},
+	"item": [
+		{
+			"name": "getjuegos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/juegos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "juegoidParametros",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "juegoid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/juegos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "juegosPostRepetido",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 3,\r\n    \"nombre\": \"Pandemic\",\r\n    \"descripcion\": \"Cuatro enfermedades han brotado en el mundo y depende de un equipo de especialistas en varios campos encontrar la cura antes de que sea demasiado tarde para la humanidad.\",\r\n    \"edadMinima\": 3,\r\n    \"numeroJugadores\": 4,\r\n    \"tipo\": \"juego de cartas\",\r\n    \"precioEuros\": \"30.35\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/juegos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "juegosPostCorrecto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 7,\r\n    \"nombre\": \"HDP (Hasta donde puedas)\",\r\n    \"descripcion\": \"es un juego de cartas lleno de humor negro, y, sobre todo, políticamente incorrecto. Almas cándidas y no preparadas para reírse hasta quedarse sin aliento, abstenerse de los momentos de diversión que os dará este H.D.P. (no seas mal pensado, es el acrónimo de “Hasta donde puedas” ¿o qué creías?).\",\r\n    \"edadMinima\": 18,\r\n    \"numeroJugadores\": 4,\r\n    \"tipo\": \"juego de mesa\",\r\n    \"precioEuros\": \"21,21 €\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/juegos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JuegosPutCorrecto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 7,\r\n    \"nombre\": \"Hasta donde puedas\",\r\n    \"descripcion\": \"es un juego de cartas lleno de humor negro, y, sobre todo, políticamente incorrecto. Almas cándidas y no preparadas para reírse hasta quedarse sin aliento\",\r\n    \"edadMinima\": 18,\r\n    \"numeroJugadores\": 4,\r\n    \"tipo\": \"juego de mesa\",\r\n    \"precioEuros\": \"31,21 €\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/juegos/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JuegosPutNoextiste",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": 7,\r\n    \"nombre\": \"Hasta donde puedas\",\r\n    \"descripcion\": \"es un juego de cartas lleno de humor negro, y, sobre todo, políticamente incorrecto. Almas cándidas y no preparadas para reírse hasta quedarse sin aliento\",\r\n    \"edadMinima\": 18,\r\n    \"numeroJugadores\": 4,\r\n    \"tipo\": \"juego de mesa\",\r\n    \"precioEuros\": \"31,21 €\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/juegos/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"juegos",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCorrecto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteIncorrecto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
